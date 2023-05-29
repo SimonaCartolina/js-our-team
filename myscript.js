@@ -55,10 +55,10 @@ for(let key in teamList){
 Stampare le stesse informazioni su DOM sottoforma di stringhe*/
 
 let divContainer= document.getElementById('container');
-for (let i of teamList) {
+for (let i=0; i< teamList.length; i++) {
     let divSubElement = document.createElement("div"); 
-    divSubElement.innerHTML = teamList;
-    divContainer.appendChild(divSubElement); 
+    divSubElement.innerHTML = newMember.name+ newMember.role + newMember.photo;
+    divContainer.appendChild(divSubElement);
 }
 
 

@@ -9,6 +9,13 @@ body{
 #container{
     width:1000px;
     margin:0 auto;
-    padding-top:15rem;
+    padding-top:2rem;
     display:flex;
+    flex-wrap:wrap;
+}
+#container div{
+    background-color: aqua;
+    width: calc(30% - 2rem);
+    height: 250px;
+    margin:2rem;
 }
