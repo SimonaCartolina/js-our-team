@@ -3,3 +3,12 @@
     padding:0;
     box-sizing: border-box;
 }
+body{
+    background-color: ;
+}
+#container{
+    width:1000px;
+    margin:0 auto;
+    padding-top:15rem;
+    display:flex;
+}

@@ -54,7 +54,12 @@ for(let key in teamList){
 /*MILESTONE 2:
 Stampare le stesse informazioni su DOM sottoforma di stringhe*/
 
-
+let divContainer= document.getElementById('container');
+for (let i of teamList) {
+    let divSubElement = document.createElement("div"); 
+    divSubElement.innerHTML = teamList;
+    divContainer.appendChild(divSubElement); 
+}
 
 
 /*lista
